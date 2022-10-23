@@ -1,0 +1,35 @@
+1.버추얼박스 다운로드
+    1-1
+    https://www.virtualbox.org/wiki/Downloads
+
+2. Vagrant 다운로드
+    https://www.vagrantup.com/downloads
+    1-1 구글 Vagrant 검색
+    https://www.vagrantup.com/
+
+    1-2 Amd64 686 중 1개 다운로드
+    본인 cpu intel 이면 686
+        amd이면 amd64
+3. 구글 cmder 검색
+    https://cmder.app/
+    접속
+
+7. vagrant 서버 폴더 만들기
+    D:\python_ksk\vagrant\server1
+
+    [[ cmder로 폴더만들기 ]]
+    cd // d: \Python작업폴더\
+    mkdir vagrant
+    cd vagrant
+    mkdir server1
+    cd server1
+
+8. vagrant cloud 접속
+    받고싶은 이미지 클릭 또는 검색
+    new 탭
+    vagrant init 이미지명 <- vagrant 파일생성
+    vagrant up <- vagrant 작성된 파일기준으로 이미지 다운로드 및 설치
+
+9. vagrant 리눅스 접속
+    vagrant ssh
+
